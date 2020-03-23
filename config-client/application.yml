@@ -1,0 +1,13 @@
+cawbutler:
+  userName: jerry
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka
+spring:
+  application:
+    name: config-client
+server:
+  port: 0
