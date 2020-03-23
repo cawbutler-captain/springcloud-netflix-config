@@ -10,4 +10,4 @@ spring:
   application:
     name: config-client
 server:
-  port: 0
+  port: 9101
